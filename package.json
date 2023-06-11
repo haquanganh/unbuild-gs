@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "name": "turbo-gs",
+  "version": "1.0.0",
+  "description": "The very first repo to gs with unbuild",
+  "main": "index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.7",
+    "unbuild": "^1.2.1"
+  }
+}
